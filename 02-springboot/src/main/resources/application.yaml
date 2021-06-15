@@ -1,0 +1,7 @@
+# 自动配置类 RedisAutoConfiguration
+# 配置信息 RedisProperties
+spring:
+  redis:
+    database: 0
+    host: "12.0.0.1"
+    port: 6379
