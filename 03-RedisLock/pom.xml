@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>03-RedisLock</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>RedisLock</name>
+    <name>03-RedisLock</name>
     <description>RedisLock</description>
     <properties>
         <java.version>1.8</java.version>
