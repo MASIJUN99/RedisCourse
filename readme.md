@@ -25,5 +25,7 @@
 
 ## [主从复制](notebooks/11.md)
 
-## [缓存穿透和雪崩](notebookes/12.md)
+## [缓存穿透和雪崩](notebooks/12.md)
+
+## [Redis做分布式锁](notebooks/13.md)
 
