@@ -31,3 +31,5 @@
 
 ## [布隆过滤器](notebooks/14.md)
 
+## [缓存淘汰算法](notebooks/15.md)
+
