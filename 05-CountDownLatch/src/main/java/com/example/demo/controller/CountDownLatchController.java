@@ -24,9 +24,7 @@ public class CountDownLatchController {
   public String get() {
     RCountDownLatch lock = redissonClient.getCountDownLatch("lock");
     lock.countDown();
-
     return "get one";
-
   }
 
 }

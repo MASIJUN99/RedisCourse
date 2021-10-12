@@ -1,4 +1,4 @@
-package com.example.RedisSemphore;
+package com.example.RedisSemaphore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

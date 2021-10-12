@@ -1,4 +1,4 @@
-package com.example.RedisSemphore.config;
+package com.example.RedisSemaphore.config;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;

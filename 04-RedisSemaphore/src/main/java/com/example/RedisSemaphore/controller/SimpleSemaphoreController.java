@@ -1,4 +1,4 @@
-package com.example.RedisSemphore.controller;
+package com.example.RedisSemaphore.controller;
 
 import javax.annotation.Resource;
 import org.redisson.api.RSemaphore;
@@ -19,21 +19,21 @@ public class SimpleSemaphoreController {
   public String getOne() throws InterruptedException {
     RSemaphore park = redissonClient.getSemaphore("park");
     park.acquire();
-    return "get one";
+    return "get resource";
   }
 
   @RequestMapping("/tryGet")
   public String tryGetOne() throws InterruptedException {
     RSemaphore park = redissonClient.getSemaphore("park");
     boolean b = park.tryAcquire();
-    return b ? "get one" : "fail to get";
+    return b ? "get resource" : "fail to resource";
   }
 
   @RequestMapping("/set")
   public String setOne() {
     RSemaphore park = redissonClient.getSemaphore("park");
     park.release();
-    return "plus one";
+    return "set resource";
   }
 
 }
